@@ -1,1 +1,55 @@
-.
+.head{
+  background-color: #1f2937;
+  color: aliceblue;
+  margin: 0;
+  border: 0;
+  padding: 20px 100px 100px 100px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+.hlogo{
+    font-size: 24px;
+}
+
+li,.subtext{
+    font-size: 18px;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.main-text{
+    font-size: 48px;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    margin-top: 2px;
+    gap: 10px;
+    text-decoration: none;
+}
+.header-bottom{
+    display: flex;
+    justify-content: space-between;
+    gap: 200px;
+}
+
+button{
+    background-color: blue;
+    border-radius: 5px;
+    min-width: 100px;
+}
+.subtext{
+    margin-bottom: 30px;
+    min-width: 300px;
+}
+.section{
+    display: flex;
+    flex-direction: column;
+}
