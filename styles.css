@@ -58,6 +58,7 @@ a{
     transition: background-color 0.3s ease;
     font-size: 14px;
     padding: 8px 16px;
+    border: 2px dotted #fff;
   }
   
   .cta-button:hover {
@@ -81,42 +82,7 @@ a{
 
 
 
-.head2-2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    padding: 0;
-}
 
-.head2-2 li {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-right: 30px;
-}
-
-.head2-2 li:last-child {
-    margin-right: 0;
-}
-
-.head2-2 li img {
-    height: 250px;
-    width: 200px;
-    border-radius: 10px;
-    border: 2px solid #ddd;
-    box-shadow: 0 0 10px #ddd;
-    margin-bottom: 10px;
-}
-
-.head2-2 li p {
-    font-size: 18px;
-    font-weight: bold;
-    margin: 0;
-    color: #333;
-}
-   
 
 .head2 {
     background-color: #fff; /* Set background color to white */
@@ -125,14 +91,15 @@ a{
 }
 
 .head2-1 {
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 35px;
+    font-weight: 600;
     margin-bottom: 30px;
+    color: #272525;
 }
 
 .head2-2 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     list-style: none;
     padding: 0;
@@ -144,7 +111,7 @@ a{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    margin-right: 30px;
+    margin-right: 10px;
 }
 
 .head2-2 li:last-child {
@@ -166,3 +133,101 @@ a{
     margin: 0;
     color: #333;
 }
+
+
+
+
+
+/* CSS for quote element */
+.quote {
+    display: flex;
+    flex: 1;
+    
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    text-align: center;
+    padding: 20px 100px 20px 100px;
+    height: 20vh;
+  }
+.give-by {
+    font-size: 20px;
+    text-align: right;
+    margin-top:0px;
+    font-weight: 550;
+}
+.quo{
+    display: flex;
+    flex-direction: column;
+    padding-top: 50px ;
+    padding-bottom: 50px;
+    background-color: #e6e8ec;
+}
+
+
+
+
+
+
+
+
+.signup-box {
+    background-color: #3882f6; /* sky blue */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    margin: 50px 200px 50px 200px;
+    border-radius: 15px;
+  }
+  
+  .signup-text {
+    font-size: 20px;
+    margin-top: 0;
+  }
+  
+  .signup-button {
+    background-color: #3882f6;
+    border: 2px dotted #fff;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+    margin-right: 40px;
+  }
+  .signup-button:hover {
+    background-color: #153ab3;
+  }
+  .leftside{
+    display: flex;
+    flex-direction: column;
+    
+    margin-left: 50px;
+
+  }
+
+
+
+
+
+
+
+
+  .ending {
+    background-color: #1f2937;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+ 
+
+
+
+
